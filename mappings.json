@@ -1,0 +1,11 @@
+{
+  "^gpt-3.5-turbo-": "openai/cl100k_base.json",
+  "^chatgpt-4o-": "openai/o200k_base",
+  "^gpt-4-": "openai/cl100k_base.json",
+  "^o1-": "openai/o200k_base",
+  "^gpt-4o-": "openai/o200k_base",
+  "^davinci-002": "openai/cl100k_base.json",
+  "^babbage-002": "openai/cl100k_base.json",
+  "^gpt-35-turbo-": "openai/cl100k_base.json",
+  "^codestral-": "mistralai/codestral-22b.json"
+}

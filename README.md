@@ -19,15 +19,11 @@ You can utilize these tokenizers in your projects using any Hugging Face tokeniz
 
 ## 📂 Available Tokenizers
 
-### GPT-3.5-Turbo
-
-- Source: [Xenova/gpt-3.5-turbo](https://huggingface.co/Xenova/gpt-3.5-turbo)
-- [Download tokenizer.json](/gpt-3.5-turbo.json)
-
-### Codestral-22B
-
-- Source: [mistralai/Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)
-- [Download tokenizer.json](/codestral-22b.json)
+- mistralai
+  - [codestral-22b.json](/mistralai/codestral-22b.json) - [\[Source\]](https://huggingface.co/mistralai/Codestral-22B-v0.1)
+- openai
+  - [o200k_base.json](/openai/o200k_base.json) - [\[Source\]](https://huggingface.co/Xenova/gpt-4o)
+  - [cl100k_base.json](/openai/cl100k_base.json) - [\[Source\]](https://huggingface.co/Xenova/gpt-3.5-turbo)
 
 ## 💻 Installation
 
@@ -58,15 +54,6 @@ Please ensure that you have the right to distribute the tokenizer files and incl
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgements
-
-We would like to express our gratitude to the following contributors and organizations for providing the original tokenizer files:
-
-- [Xenova](https://huggingface.co/Xenova) for the GPT-3.5-Turbo tokenizer
-- [Mistral AI](https://huggingface.co/mistralai) for the Codestral-22B tokenizer
-
-Their work and open-source contributions make projects like this possible.
 
 ---
 
