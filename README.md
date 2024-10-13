@@ -4,16 +4,6 @@
 
 A curated collection of Hugging Face-compatible `tokenizer.json` files for various Large Language Models (LLMs) 🤖.
 
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Usage](#usage)
-- [Available Tokenizers](#available-tokenizers)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## 🌟 Overview
 
 This repository houses a collection of `tokenizer.json` files compatible with Hugging Face's tokenizer ecosystem. These files enable seamless integration with various LLMs, facilitating natural language processing tasks across different programming environments.
