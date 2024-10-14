@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "regex": "^gpt-3.5-turbo-.*instruct",
+      "contextWindow": 4096,
+      "type": "completions",
+      "tokenizerUrl": "https://cdn.jsdelivr.net/gh/flexpilot-ai/huggingface-tokenizers/openai/cl100k_base.json"
+    },
+    {
+      "regex": "^codestral-(?!.*mamba)",
+      "contextWindow": 32768,
+      "type": "completions",
+      "tokenizerUrl": "https://cdn.jsdelivr.net/gh/flexpilot-ai/huggingface-tokenizers/mistralai/codestral-v0.1.json"
+    },
+    {
+      "regex": "^codestral-.*mamba",
+      "contextWindow": 32768,
+      "type": "completions",
+      "tokenizerUrl": "https://cdn.jsdelivr.net/gh/flexpilot-ai/huggingface-tokenizers/mistralai/codestral-v0.1.json"
+    },
+    {
+      "regex": "^gpt-35-turbo-.*instruct",
+      "contextWindow": 4096,
+      "type": "completions",
+      "tokenizerUrl": "https://cdn.jsdelivr.net/gh/flexpilot-ai/huggingface-tokenizers/openai/cl100k_base.json"
+    }
+  ]
+}
